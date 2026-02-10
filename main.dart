@@ -1,10 +1,7 @@
 void main(){
-var nama = "Budi";
-var umur = 20;
-var tinggi = 170.5;
-var isStudent = true;
-print("Nama: $nama");
-print("Umur: $umur");
-print("Tinggi: $tinggi");
-print("Mahasiswa: $isStudent");
+for (var i = 1; i <= 10; i++) {
+if (i == 5) break;
+if (i % 2 == 0) continue;
+print("Angka ganjil: $i");
+}
 }
